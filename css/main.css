@@ -1,0 +1,54 @@
+html{
+  background-image: url("../img/cold.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color:yellow;
+
+}
+header{
+  height: 200px;
+  width: 100%;
+  display: flex;
+  border-bottom: 1px dotted white;
+  padding-left: 60px;
+}
+main{
+  height: 200px;
+  width: 100%;
+  padding-left: 60px;
+}
+#flex-container{
+  display: flex;
+  justify-content: space-between;
+
+}
+.flex-one,.flex-two,.flex-three{
+  height:200px;
+  width:33%;
+}
+.flex-one{
+  border-left: 2px dotted yellow;
+  border-right: 2px dotted yellow;
+}
+.flex-two{
+  border-left: 2px dotted yellow;
+  border-right: 2px dotted yellow;
+}
+.flex-three{
+  border-left: 2px dotted yellow;
+  border-right: 2px dotted yellow;
+}
+
+}
+footer{
+  height:100px;
+  width: 100%;
+}
+footer h3{
+  padding-top: 60px;
+  padding-left: 600px;
+  color: red;
+}
+footer span{
+  font-size: 2rem;
+}
